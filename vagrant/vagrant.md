@@ -1,6 +1,6 @@
-## Vagrant
+# Vagrant
 
-[Vagrant](https://developer.hashicorp.com/vagrant/downloads)
+[Download Vagrant](https://developer.hashicorp.com/vagrant/downloads)
 
 - Primero instalar un software de virtualizacion como virtualbox.
 - Instalamos vagrant (para validar que se instalo correctamente ejecutar en linea de comandos vagrant)
@@ -11,7 +11,7 @@
     vagrant init ubuntu/trusty64
     vagrant up
     ```
-- Para crear un archivo `Vagrantfile` y establecer el entorno virtual.
+- Para crear un archivo __Vagrantfile__ y establecer el entorno virtual.
 - Como alternativa se puede descargar el archivo _.box_ y ejecutar
     ```
     vagrant box add my/box  file:///d:/path/to/name-of-the-box.box
